@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  background-color: red;
+}
+
+  .header-perfil{
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(84, 158, 200) ;
+    transition: 1s all;
+  }
+
+  .header-perfil:hover{
+    background-color: rgb(0, 255, 0) ;
+  }
+
+
+.menu{
+  position: relative;
+  top: 100px;
+  float: left;
+  height: calc(100% - 100px);
+  width: 20%;
+  background-color: green;
+}
+
+  .menu-buscador{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+  }
+
+.contenido{
+  position: relative;
+  top: 100px;
+  min-width:80%;
+  height: calc(100% - 100px);
+  float: left;
+  background-color: yellow;
+}
+  .contenido-correo{
+    position: relative;
+    width: 90%;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 10px;
+
+    /*margin: 100px 10px 10px 10px;*/
+    background-color: purple;
+  }

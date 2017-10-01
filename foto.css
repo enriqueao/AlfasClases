@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  background-color: #DCE2E6;
+}
+
+img{
+  margin-left: 20%;
+  border: solid white;
+  border-width: 20px 10px 50px 10px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.6);
+  transition: 1s all;
+  margin-top: 50px;
+}
+
+img:hover{
+  transform: rotate(180deg);
+  width: 20%;
+  height: 40%;
+  filter: blur(3px);
+}

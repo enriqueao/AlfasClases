@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+html body{
+  height: 100%;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 40px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+  .header-logo{
+    position: relative;
+    float: left;
+    /*width: 40%;*/
+    height: 100%;
+    /*background-color: green;*/
+    margin-right: 15px;
+  }
+
+    .text{
+      font-size: 3em;
+      font-family: 'Open San', sans-serif;
+      color: #293436;
+      font-weight: bold;
+    }
+
+    .blue{
+      color: #1CD4BA;
+    }
+
+  .header-buscador{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 100%;
+    /*background-color: blue;*/
+  }
+
+    input[type="search"]{
+      width: 100%;
+      height: 50px;
+      /*background:url("../img/search.png") no-repeat left top;*/
+      background-image: url("../img/search.png");
+      background-repeat: no-repeat;
+      background-size: 20px 20px;
+      background-position: left center;
+      border: solid 1px rgba(0,0,0,.4);
+      outline: none;
+      padding-left: 21px;
+    }
+
+  .header-carrito{
+    position: relative;
+    float: left;
+    width: 35%;
+    height: 100%;
+    /*background-color: red;*/
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+  .header-carrito > img{
+    width: 50px;
+    height: 50px;
+  }
+
+.navbar{
+  position: relative;
+  top: 150px;
+  right: 0;
+  left: 0;
+  height: 100px;
+  width: 100%;
+  background-color: #293436;
+}
+
+.barra-lateral{
+  position: relative;
+  float: left;
+  top: 150px;
+  width: 30%;
+  height: 500px;
+  background-color: red;
+}
+
+.contenido{
+  position: relative;
+  float: left;
+  top: 150px;
+  width: 70%;
+  height: 500px;
+  background-color: yellow;
+}
