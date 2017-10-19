@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+.contenedor{
+    position: relative;
+    float: left;
+    width: 500px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.row{
+  position: relative;
+  float: left;
+  width: 500px;
+}
+.cuadro{
+    position: relative;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border: 1px solid black;
+    transition: .6s all;
+}
+
+.cuadro:hover{
+  background-color: green;
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+  /*-webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -o-transform: rotate(7deg); */
+  transform: rotate(12deg);
+  /*filter:sepia(1);*/
+}
+
+.seleccionado{
+  background-color: green;
+}
+
+.purple{
+  background-color: purple;
+}
