@@ -25,13 +25,22 @@ body, html{
     float: left;
     width: 60px;
     height: 60px;
-    background-color: red;
+    background-color: gray;
     border: 1px solid black;
     transition: .6s all;
 }
 
+.cuadro-bloqueado{
+    position: relative;
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border: 1px solid black;
+}
+
 .cuadro:hover{
-  background-color: green;
+  background-color: orange;
   cursor: pointer;
   width: 65px;
   height: 65px;
@@ -50,4 +59,16 @@ body, html{
 
 .purple{
   background-color: purple;
+}
+
+.bloqueado{
+  background-color: black;
+}
+
+.mal{
+  background-color: red;
+}
+
+span{
+  font-size: 8em;
 }
